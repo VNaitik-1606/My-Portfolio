@@ -1,0 +1,282 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #0D1B2A;
+    color: white;
+    font-family: Space Mono;
+    margin: 20px 20px 20px 20px;
+}
+#nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(33, 36, 40, 0.9);
+    padding: 10px;
+    z-index: 1000;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+    color: #00c6ff;
+}
+button {
+    background-color: #212428;
+    box-shadow: -1px -1px 0.9px #636363;
+    border-radius: 3px;
+}
+#btn0 {
+    font-family: Poiret One;
+    padding: 12px;
+    border-radius: 5px;
+    color: #00c6ff;
+    font-weight: bolder;
+    border: 2px solid;
+    cursor: pointer;
+    box-shadow: -3px -2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #212428;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#btn0:focus {
+    outline: none;
+    border-color: #00c6ff;
+}
+#btn0:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 198, 255, 0.3);
+}
+#btn0:active {
+    transform: translateY(-5px) scale(0.95);
+    box-shadow: 0px 5px 10px rgba(0, 198, 255, 0.2);
+}
+#buttons {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 180px;
+    background-repeat: no-repeat;
+}
+#btn1 {
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+    background-image: url(https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=000000);
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+#btn2 {
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+    background-image: url(https://img.icons8.com/?size=100&id=108812&format=png&color=000000);
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+#btn3 {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    background-image: url(https://img.icons8.com/?size=100&id=Cjuj2uISMdQ1&format=png&color=000000);
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+a {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+a:hover {
+    transform: translateY(-10px);
+    color: #00c6ff;
+    text-shadow: 2px 1px 3px #00c6ff;
+}
+a:active {
+    transform: translateY(-5px) scale(0.95);
+}
+#ed {
+    text-align: center;
+    font-family: Space Mono;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+#s1 {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+#s2 {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+#Education {
+    text-align: center;
+    margin-top: 50px;
+}
+.sed {
+    width: 50%;
+    margin: 0 auto;
+    border: transparent;
+    box-shadow: -2px -5px 8px #00FF00;
+    padding: 20px;
+}
+#py {
+    height: 150px;
+    width: 150px;
+    margin-right: 150px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-image: url(https://img.icons8.com/?size=100&id=121464&format=png&color=000000);
+}
+#sql {
+    height: 150px;
+    width: 150px;
+    margin-right: 150px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-image: url(https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000);
+}
+#html {
+    height: 150px;
+    width: 150px;
+    margin-right: 150px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-image: url(https://img.icons8.com/?size=100&id=20909&format=png&color=000000);
+}
+#css {
+    height: 150px;
+    width: 150px;
+    margin-right: 150px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-image: url(https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000);
+}
+#js {
+    height: 150px;
+    width: 150px;
+    margin-right: 150px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-image: url(https://img.icons8.com/?size=100&id=108784&format=png&color=000000);
+    margin-top: 50px;
+}
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 250px;
+}
+#sk {
+    display: block;
+    margin-bottom: 160px;
+}
+#skbtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+#skbtns button {
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#get-in-touch {
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #212428;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+#get-in-touch h1 {
+    font-size: 36px;
+    color: #00c6ff;
+}
+#get-in-touch p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #333;
+    color: white;
+    border: 2px solid #00c6ff;
+    border-radius: 5px;
+    font-family: 'Space Mono', monospace;
+}
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #00c6ff;
+}
+#send-btn {
+    background-color: #212428;
+    color: #00c6ff;
+    font-family: 'Poiret One', cursive;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: 2px solid #00c6ff;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#send-btn:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 198, 255, 0.3);
+}
+#send-btn:active {
+    transform: translateY(-5px) scale(0.95);
+    box-shadow: 0px 5px 10px rgba(0, 198, 255, 0.2);
+}
