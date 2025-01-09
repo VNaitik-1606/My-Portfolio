@@ -195,6 +195,19 @@ a:active {
     background-image: url(https://img.icons8.com/?size=100&id=108784&format=png&color=000000);
     margin-top: 50px;
 }
+
+#c {
+    height: 150px;
+    width: 150px;
+    margin-right: 150px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-image: url(https://img.icons8.com/?size=100&id=40670&format=png&color=000000);
+    margin-top: 50px;
+}
 #skills {
     display: flex;
     flex-direction: column;
