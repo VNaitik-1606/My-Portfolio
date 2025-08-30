@@ -247,6 +247,24 @@ a:active {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+#cpp {
+    height: 15vw;
+    width: 15vw;
+    max-height: 150px;
+    max-width: 150px;
+    min-height: 80px;
+    min-width: 80px;
+    margin-right: 5vw;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url('https://img.icons8.com/?size=100&id=40669&format=png&color=000000');
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 @media (max-width: 768px) {
     #py, #sql, #html, #css, #js, #c {
         height: 20vw;
@@ -348,3 +366,4 @@ a:active {
     transform: translateY(-5px) scale(0.95);
     box-shadow: 0px 5px 10px rgba(0, 198, 255, 0.2);
 }
+
