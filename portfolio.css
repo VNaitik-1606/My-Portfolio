@@ -139,7 +139,8 @@ a:active {
     box-shadow: -2px -5px 8px #00FF00;
     padding: 20px;
 }
-#py {
+
+.skill-icon {
     height: 15vw;
     width: 15vw;
     max-height: 150px;
@@ -153,116 +154,34 @@ a:active {
     border: none;
     border-radius: 50%;
     background-color: white;
-    background-image: url('https://img.icons8.com/?size=100&id=121464&format=png&color=000000');
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#py {
+    background-image: url('https://img.icons8.com/?size=100&id=121464&format=png&color=000000');
 }
 
 #sql {
-    height: 15vw;
-    width: 15vw;
-    max-height: 150px;
-    max-width: 150px;
-    min-height: 80px;
-    min-width: 80px;
-    margin-right: 5vw;
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 50%;
-    background-color: white;
     background-image: url('https://img.icons8.com/?size=100&id=Pv4IGT0TSpt8&format=png&color=000000');
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #html {
-    height: 15vw;
-    width: 15vw;
-    max-height: 150px;
-    max-width: 150px;
-    min-height: 80px;
-    min-width: 80px;
-    margin-right: 5vw;
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 50%;
-    background-color: white;
     background-image: url('https://img.icons8.com/?size=100&id=20909&format=png&color=000000');
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #css {
-    height: 15vw;
-    width: 15vw;
-    max-height: 150px;
-    max-width: 150px;
-    min-height: 80px;
-    min-width: 80px;
-    margin-right: 5vw;
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 50%;
-    background-color: white;
     background-image: url('https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000');
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #js {
-    height: 15vw;
-    width: 15vw;
-    max-height: 150px;
-    max-width: 150px;
-    min-height: 80px;
-    min-width: 80px;
-    margin-right: 5vw;
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 50%;
-    background-color: white;
     background-image: url('https://img.icons8.com/?size=100&id=108784&format=png&color=000000');
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #c {
-    height: 15vw;
-    width: 15vw;
-    max-height: 150px;
-    max-width: 150px;
-    min-height: 80px;
-    min-width: 80px;
-    margin-right: 5vw;
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 50%;
-    background-color: white;
     background-image: url('https://img.icons8.com/?size=100&id=40670&format=png&color=000000');
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #cpp {
-    height: 15vw;
-    width: 15vw;
-    max-height: 150px;
-    max-width: 150px;
-    min-height: 80px;
-    min-width: 80px;
-    margin-right: 5vw;
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 50%;
-    background-color: white;
     background-image: url('https://img.icons8.com/?size=100&id=40669&format=png&color=000000');
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -366,5 +285,6 @@ a:active {
     transform: translateY(-5px) scale(0.95);
     box-shadow: 0px 5px 10px rgba(0, 198, 255, 0.2);
 }
+
 
 
