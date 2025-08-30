@@ -61,11 +61,11 @@ button {
     margin-top: 180px;
     background-repeat: no-repeat;
 }
-#btn1 {
+
+.social-btn {
     height: 50px;
     width: 50px;
     margin-right: 40px;
-    background-image: url(https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=000000);
     background-size: 140%;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,32 +73,17 @@ button {
     border-radius: 50%;
     cursor: pointer;
     background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#btn1 {
+    background-image: url(https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=000000);
 }
 #btn2 {
-    height: 50px;
-    width: 50px;
-    margin-right: 40px;
     background-image: url(https://img.icons8.com/?size=100&id=108812&format=png&color=000000);
-    background-size: 140%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: white;
 }
 #btn3 {
-    height: 50px;
-    width: 50px;
     margin-right: 20px;
     background-image: url(https://img.icons8.com/?size=100&id=Cjuj2uISMdQ1&format=png&color=000000);
-    background-size: 140%;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: white;
 }
 a {
     position: relative;
@@ -285,6 +270,7 @@ a:active {
     transform: translateY(-5px) scale(0.95);
     box-shadow: 0px 5px 10px rgba(0, 198, 255, 0.2);
 }
+
 
 
 
